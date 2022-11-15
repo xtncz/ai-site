@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "Soin Sans Neue Black";
+    src: url("../public/assets/Soin\ Sans\ Neue\ Black.otf");
+}
+
+@font-face {
+    font-family: "Soin Sans Neue Bold";
+    src: url("../public/assets/Soin\ Sans\ Neue\ Bold.otf");
+}
+
+@font-face {
+    font-family: "Soin Sans Neue Extralight";
+    src: url("../public/assets/Soin\ Sans\ Neue\ ExtraLight.otf");
+}
+
+@font-face {
+    font-family: "Soin Sans Neue Hairline";
+    src: url("../public/assets/Soin\ Sans\ Neue\ Hairline.otf");
+}
+
+@font-face {
+    font-family: "Soin Sans Neue Heavy";
+    src: url("../public/assets/Soin\ Sans\ Neue\ Heavy.otf");
+}
+
+@font-face {
+    font-family: "Soin Sans Neue Light";
+    src: url("../public/assets/Soin\ Sans\ Neue\ Light.otf");
+}
+
+@font-face {
+    font-family: "Soin Sans Neue Medium";
+    src: url("../public/assets/Soin\ Sans\ Neue\ Medium.otf");
+}
+
+@font-face {
+    font-family: "Soin Sans Neue Roman";
+    src: url("../public/assets/Soin\ Sans\ Neue\ Roman.otf");
+}
+
+@font-face {
+    font-family: "Soin Sans Neue Thin";
+    src: url("../public/assets/Soin\ Sans\ Neue\ Thin.otf");
+}
+
+:root {
+    --background: #FCFEFF;
+    --track-bg: #f1f1f1;
+    --scrollbar-bg: #1a1a1a;
+
+    --font-black: "Soin Sans Neue Black", sans-serif;
+    --font-bold: "Soin Sans Neue Bold", sans-serif;
+    --font-extralight: "Soin Sans Neue Extralight", sans-serif;
+    --font-hairline: "Soin Sans Neue Hairline", sans-serif;
+    --font-heavy: "Soin Sans Neue Heavy", sans-serif;
+    --font-light: "Soin Sans Neue Light", sans-serif;
+    --font-medium: "Soin Sans Neue Medium", sans-serif;
+    --font-roman: "Soin Sans Neue Roman", sans-serif;
+    --font-thin: "Soin Sans Neue Thin", sans-serif;
+
+    --primary-fw: 900;
+    --primary-color: #44739A;
+    --secondary-color: #CBD5DF;
+    --tertiary-color: #EBF3FA;
+}
+
+html,
+body {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 1.65;
+    font-family: var(--font-medium);
+    font-weight: var(--primary-fw);
+    min-width: 320px;
+    direction: ltr;
+    font-feature-settings: "kern";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    overscroll-behavior-y: contain;
+    background: var(--background);
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    cursor: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+button {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fade-in 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.fade-out {
+    opacity: 1;
+    animation: fade-out 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.cursor-outer {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid black;
+    transition: all 200ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(calc(-50% + 15px), -50%);
+}
+
+.cursor-inner {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: black;
+    opacity: .3;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: width .3s, height .3s, opacity .3s;
+}
+
+.cursorinnerhover {
+    width: 20px;
+    height: 20px;
+    opacity: .5;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        cursor: auto;
+    }
+
+    .cursor-outer, .cursor-inner, .cursorinnerhover {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .cursor-outer {
+        width: 30px;
+        height: 30px;
+    }
+
+    .cursor-inner {
+        width: 10px;
+        height: 10px;
+    }
+
+    .cursorinnerhover {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        overflow-y: auto;
+    }
+}
