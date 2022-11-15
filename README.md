@@ -1,7 +1,5 @@
 # AI Site
 
-## About
-
 A computer science project website containing an interactive infographic exploring the aspects of the advancement of artificial intelligence.
 
 ## Deploying
