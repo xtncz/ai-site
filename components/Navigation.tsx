@@ -9,20 +9,32 @@ export const Navigation: NextComponent = (): JSX.Element => {
 
     return (
         <header className={styles.navigation}>
-            <h1 className={styles.title}>
-                AI
-            </h1>
+            <h1 className={styles.title}>AI</h1>
 
             <ul className={styles.links}>
                 <li>
                     <Link href="" passHref>
-                        <a className={router.pathname === "/" ? styles.active :  styles.link}>Home</a>
+                        <a
+                            className={
+                                router.pathname === "/"
+                                    ? styles.active
+                                    : styles.link
+                            }>
+                            Home
+                        </a>
                     </Link>
                 </li>
 
                 <li>
                     <Link href="" passHref>
-                        <a className={router.pathname === "/about" ? styles.active : styles.link}>About</a>
+                        <a
+                            className={
+                                router.pathname === "/about"
+                                    ? styles.active
+                                    : styles.link
+                            }>
+                            About
+                        </a>
                     </Link>
                 </li>
             </ul>

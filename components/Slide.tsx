@@ -7,15 +7,16 @@ export type SlideProps = Props<{
     description: string;
 }>;
 
-export const Slide: NextComponent<SlideProps> = ({ title, description }: SlideProps): JSX.Element => {
+export const Slide: NextComponent<SlideProps> = ({
+    title,
+    description
+}: SlideProps): JSX.Element => {
     return (
         <div className={`${styles.slide} ${styles.fade}`}>
             <div className={styles.content}>
                 <div className={styles.bar}></div>
                 <h1>{title}</h1>
-                <p>
-                    {description}
-                </p>
+                <p>{description}</p>
             </div>
             <div style={{ width: "100%", height: "100%" }}></div>
         </div>
