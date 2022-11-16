@@ -58,7 +58,7 @@
     --font-roman: "Soin Sans Neue Roman", sans-serif;
     --font-thin: "Soin Sans Neue Thin", sans-serif;
 
-    --primary-fw: 900;
+    --primary-weight: 900;
     --primary-color: #44739A;
     --secondary-color: #CBD5DF;
     --tertiary-color: #EBF3FA;
@@ -74,7 +74,7 @@ body {
     margin: 0;
     line-height: 1.65;
     font-family: var(--font-medium);
-    font-weight: var(--primary-fw);
+    font-weight: var(--primary-weight);
     min-width: 320px;
     direction: ltr;
     font-feature-settings: "kern";
