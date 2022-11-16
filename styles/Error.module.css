@@ -10,6 +10,7 @@
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
+    color: var(--primary-color);
 }
 
 .error-code {
@@ -43,4 +44,23 @@
     position: absolute;
     bottom: 1.5rem;
     font-size: .85em;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-weight: normal;
+}
+
+.return-link:after {
+    content: '';
+    width: 0;
+    height: 1px;
+    display: block;
+    margin-top: 0px;
+    left: 0%;
+    background: var(--primary-color);
+    transition: width .3s ease;
+}
+
+.return-link:hover:after {
+    width: 100%;
+    left: 0%;
+    background: var(--primary-color);
 }
