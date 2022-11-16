@@ -17,6 +17,8 @@ function App({ Component, pageProps }: AppProps): JSX.Element {
     useEffect((): (() => void) => {
         init();
 
+        document.querySelector("body")?.addEventListener("contextmenu", (e: MouseEvent): void =>  e.preventDefault());
+
         const cursor: HTMLElement | null =
             document.getElementById("cursor-outer");
         const cursorinner: HTMLElement | null =
