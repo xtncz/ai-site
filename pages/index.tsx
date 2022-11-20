@@ -98,7 +98,7 @@ const Home: NextPage = (): JSX.Element => {
                 <div
                     className={styles.image}
                     style={{
-                        backgroundImage: `url(${assetPath("assets/ai.png")})`
+                        backgroundImage: `url(${assetPath("/assets/ai.png")})`
                     }}></div>
             </div>
 

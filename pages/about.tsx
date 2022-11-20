@@ -6,7 +6,7 @@ import { assetPath } from "../lib/utils";
 const About: NextPage = (): JSX.Element => {
     return (
         <Page title="About - Artificial Intelligence">
-            <iframe src={assetPath("assets/Project_Sheet_Students.pdf")}
+            <iframe src={assetPath("/assets/Project_Sheet_Students.pdf")}
                 style={{
                 height: "calc(100vh - 8rem)",
                 width: "100vw",
