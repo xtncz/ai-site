@@ -1,26 +1,26 @@
 {
     "1": {
-        "title": "Artificial Intelligence - The Future",
-        "description": "Artificial Intelligence (AI) is the theory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages."
+        "title": "Artificial Intelligence",
+        "description": "Artificial Intelligence (AI) is the theory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages. AI mimicks the intelligence or behavioural pattern of humans or any other living entity."
     },
     "2": {
         "title": "Supervised Learning",
-        "description": "Et est consetetur at consetetur clita voluptua invidunt clita. Dolore consetetur dolore tempor rebum, lorem dolor magna elitr consetetur sit tempor. Gubergren dolore sed lorem lorem clita gubergren ipsum. Justo et diam ut et diam lorem, et dolore eirmod et gubergren, no diam erat diam lorem sit invidunt diam, voluptua voluptua sanctus kasd ipsum erat tempor, gubergren et labore stet."
+        "description": "Supervised learning in artificial intelligence is the process of training a computer algorithm using input data that has been labelled for a particular output. It is the act of labelling data for the system to analyse is very similar to how a human can learn information through reading a textbook. Examples include looking at different types of cat and knowing the scientific names already. It can be used for making predictions e.g. this picture is a cat, this picture is a dog"
     },
     "3": {
         "title": "Unsupervised Learning",
-        "description": "Et est consetetur at consetetur clita voluptua invidunt clita. Dolore consetetur dolore tempor rebum, lorem dolor magna elitr consetetur sit tempor. Gubergren dolore sed lorem lorem clita gubergren ipsum. Justo et diam ut et diam lorem, et dolore eirmod et gubergren, no diam erat diam lorem sit invidunt diam, voluptua voluptua sanctus kasd ipsum erat tempor, gubergren et labore stet."
+        "description": "The training of a computer algorithm to arrive at conclusions through learned patterns from unlabelled data. Without human intervention, the person learning is also able to arrive at solutions. Like the AI, they sometimes don’t need external help. An example of a human learning is getting provided with animals that the person doesn’t know - the person will organise them into groups where they show similar traits. Unsupervised learning can be used for clustering and anomaly detectection."
     },
     "4": {
         "title": "Reinforcement Learning",
-        "description": "Et est consetetur at consetetur clita voluptua invidunt clita. Dolore consetetur dolore tempor rebum, lorem dolor magna elitr consetetur sit tempor. Gubergren dolore sed lorem lorem clita gubergren ipsum. Justo et diam ut et diam lorem, et dolore eirmod et gubergren, no diam erat diam lorem sit invidunt diam, voluptua voluptua sanctus kasd ipsum erat tempor, gubergren et labore stet."
+        "description": "The training of a computer algorithm using a trial and error method to maximise the notion of a cumulative reward. Brute forcing is a way to solve some problems, however the human will not be able to do it as fast and as efficiently as an AI. For example, trying to become the best possible player of Super Mario 64, the person will not be able to train as extensively as an AI. It can be used for learning how to maximise rewards from observations done by actions."
     },
     "5": {
         "title": "Deep Learning",
-        "description": "Et est consetetur at consetetur clita voluptua invidunt clita. Dolore consetetur dolore tempor rebum, lorem dolor magna elitr consetetur sit tempor. Gubergren dolore sed lorem lorem clita gubergren ipsum. Justo et diam ut et diam lorem, et dolore eirmod et gubergren, no diam erat diam lorem sit invidunt diam, voluptua voluptua sanctus kasd ipsum erat tempor, gubergren et labore stet."
+        "description": "Deep learning is a computer algorithm learning method that uses multiple layers to progressively extract higher-level features from the raw input. Deep learning is an attempt to perform computer algorithm learning inspired by the brain’s network of neurons."
     },
     "6": {
         "title": "Artificial Neural Network",
-        "description": "Et est consetetur at consetetur clita voluptua invidunt clita. Dolore consetetur dolore tempor rebum, lorem dolor magna elitr consetetur sit tempor. Gubergren dolore sed lorem lorem clita gubergren ipsum. Justo et diam ut et diam lorem, et dolore eirmod et gubergren, no diam erat diam lorem sit invidunt diam, voluptua voluptua sanctus kasd ipsum erat tempor, gubergren et labore stet."
+        "description": "Computing systems inspired by the biological neural networks that constitute animal brains. Like the human brain, the neurons in the AI are usually organised into multiple layers."
     }
 }

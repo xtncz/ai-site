@@ -13,7 +13,7 @@ export const Slide: NextComponent<SlideProps> = ({
 }: SlideProps): JSX.Element => {
     return (
         <div className={`${styles.slide} ${styles.fade}`}>
-            <div className={styles.content}>
+            <div className={styles.content} data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                 <div className={styles.bar}></div>
                 <h1>{title}</h1>
                 <p>{description}</p>

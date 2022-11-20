@@ -70,7 +70,7 @@ const Home: NextPage = (): JSX.Element => {
                         <div className={styles.circle}></div>
                         <div className={styles.circle}></div>
                     </div>
-                    <p>
+                    <p data-aos="fade-up" data-aos-duration="3000">
                         Artificial Intelligence (AI) is the theory and
                         development of computer systems able to perform tasks
                         that normally require human intelligence, such as visual
@@ -104,7 +104,7 @@ const Home: NextPage = (): JSX.Element => {
 
             <div className={styles.footer}>
                 <div className={styles.skip}>
-                    <p onClick={(): void => setIndex(index + 1)}>Skip Slide</p>
+                    <p onClick={(): void => setIndex(index + 1)} data-aos="fade-right" data-aos-offset="0" data-aos-easing="ease-in-sine" data-aos-duration="1500">Skip Slide</p>
                 </div>
                 <div className={styles.content}>
                     <div className={styles.slider}>
@@ -130,14 +130,14 @@ const Home: NextPage = (): JSX.Element => {
                     </div>
 
                     <div className={styles.processes}>
-                        <div className={styles.process}>
-                            <h1>Architecture</h1>
-                            <p>Throughout the design process</p>
+                        <div className={styles.process} data-aos="fade-up" data-aos-duration="1500" data-aos-offset="0">
+                            <h1>Quantum Computing</h1>
+                            <p>Application of AI in computing</p>
                         </div>
 
-                        <div className={styles.process}>
-                            <h1>Design</h1>
-                            <p>Throughout the design process</p>
+                        <div className={styles.process} data-aos="fade-up" data-aos-duration="1500" data-aos-offset="0">
+                            <h1>E-Commerce</h1>
+                            <p>Impact of AI in E-Commerce</p>
                         </div>
                     </div>
                 </div>

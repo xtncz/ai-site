@@ -13,7 +13,7 @@ export const Navigation: NextComponent = (): JSX.Element => {
 
             <ul className={styles.links}>
                 <li>
-                    <Link href="" passHref>
+                    <Link href="/" passHref>
                         <a
                             className={
                                 router.pathname === "/"
@@ -26,7 +26,7 @@ export const Navigation: NextComponent = (): JSX.Element => {
                 </li>
 
                 <li>
-                    <Link href="" passHref>
+                    <Link href="/about" passHref>
                         <a
                             className={
                                 router.pathname === "/about"
@@ -34,6 +34,19 @@ export const Navigation: NextComponent = (): JSX.Element => {
                                     : styles.link
                             }>
                             About
+                        </a>
+                    </Link>
+                </li>
+
+                <li>
+                    <Link href="/research" passHref>
+                        <a
+                            className={
+                                router.pathname === "/research"
+                                    ? styles.active
+                                    : styles.link
+                            }>
+                            Research
                         </a>
                     </Link>
                 </li>

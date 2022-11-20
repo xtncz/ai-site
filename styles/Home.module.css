@@ -8,6 +8,7 @@
     color: var(--primary-color);
     padding-left: 4rem;
     text-align: left;
+    overflow: hidden;
 }
 
 .circle:nth-child(1) {
@@ -183,7 +184,7 @@
 }
 
 .process>p {
-    font-size: 0.85rem;
+    font-size: 0.65rem;
     color: var(--primary-color);
     font-family: var(--font-thin);
     margin-block-start: 0;
