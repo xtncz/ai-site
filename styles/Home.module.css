@@ -183,6 +183,10 @@
     margin-block-end: 0;
 }
 
+.process>h1:hover {
+    text-decoration: underline;
+}
+
 .process>p {
     font-size: 0.65rem;
     color: var(--primary-color);

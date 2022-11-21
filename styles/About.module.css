@@ -1,0 +1,29 @@
+.content {
+    width: 100%;
+    text-align: left;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+}
+
+.content>h1 {
+    font-family: var(--font-light);
+}
+
+.content>h3 {
+    font-family: var(--font-light);
+    color: var(--primary-color);
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.content>p {
+    font-family: var(--font-thin);
+}
+
+@media screen and (max-width: 540px) {
+    .content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

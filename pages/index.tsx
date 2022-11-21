@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
-import { Icon } from "../components/Next";
+import { Icon, Link } from "../components/Next";
 import type { NextPage } from "next";
 import { Page } from "../components/Page";
 import { Slide } from "../components/Slide";
@@ -22,23 +22,14 @@ const Home: NextPage = (): JSX.Element => {
 
     useEffect(
         (): void =>
-            setTotal(
-                (
-                    document.getElementsByClassName(
-                        "Slide_slide__7l6vA"
-                    ) as HTMLCollectionOf<HTMLElement>
-                ).length
-            ),
+            setTotal((document.getElementById("slide-container") as HTMLElement).children.length),
         [setTotal]
     );
 
     useEffect((): void => {
         const trackBar: HTMLElement | null =
             document.getElementById("track-bar");
-        const slides: HTMLCollectionOf<HTMLElement> =
-            document.getElementsByClassName(
-                "Slide_slide__7l6vA"
-            ) as HTMLCollectionOf<HTMLElement>;
+        const slides: HTMLCollectionOf<HTMLElement> = (document.getElementById("slide-container") as HTMLElement).children as HTMLCollectionOf<HTMLElement>;
         if (index > slides.length - 1) setIndex(0);
         if (index < 0) setIndex(slides.length - 1);
 
@@ -131,12 +122,16 @@ const Home: NextPage = (): JSX.Element => {
 
                     <div className={styles.processes}>
                         <div className={styles.process} data-aos="fade-up" data-aos-duration="1500" data-aos-offset="0">
-                            <h1>Quantum Computing</h1>
+                            <Link href="/research#quantum-computing">
+                                <h1>Quantum Computing</h1>
+                            </Link>
                             <p>Application of AI in computing</p>
                         </div>
 
                         <div className={styles.process} data-aos="fade-up" data-aos-duration="1500" data-aos-offset="0">
-                            <h1>E-Commerce</h1>
+                            <Link href="/research#e-commerce">
+                                <h1>E-Commerce</h1>
+                            </Link>
                             <p>Impact of AI in E-Commerce</p>
                         </div>
                     </div>

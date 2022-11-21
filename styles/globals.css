@@ -109,6 +109,10 @@ button:focus {
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .hidden {
     opacity: 0;
 }
