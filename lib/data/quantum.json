@@ -1,6 +1,74 @@
 {
     "1": {
-        "title": "",
-        "description": ""
-    }
+        "title": "Introduction to quantum mechanics",
+        "description": "Quantum mechanics is a fundamental physics theory that describes the physical properties of nature on an atomic/subatomic scale. The main difference between quantum and classical physics is that while regular physics can often be seen with the naked eye, quantum physics requires external support or even thought experiments to be understood and observed. Many quantum mechanical aspects often seemed to be counterintuitive or even paradoxical to the behaviour seen in larger scales.  An example is Schrodinger's cat, where the cat is perceived to be both alive and dead. Humans have not yet explained how most of quantum mechanics can affect reality, but they have managed to harness it in some ways. At a fundamental level, both particles and waves have properties of particles and waves."
+    },
+    "2": {
+        "title": "Relation between quantum mechanics and computing",
+        "description": "The three main factors in the relationship between quantum mechanics and computing are superposition, interference and entanglement, which are explained on the next slides. While a regular computer uses normal bits, quantum computers use “qubits”. A qubit is a basic unit of quantum information. The main difference between qubits and bits is that while bits have 2 states (0 and 1), qubits can represent a 0, 1, or any proportion of 0 and 1 in superposition of both states, with a certain probability of being a 0 and a certain probability of being a 1. This means that qubits can hold much more information than an equivalent number of regular bits ever could. The power of qubits is what gives quantum computing the term of “quantum supremacy”, a goal where the quantum computer can solve a problem no classical computer can do. Scaling of qubits is exponential."
+    },
+    "3": {
+        "title": "Superposition",
+        "description": "Superposition is the ability of a thing to be in multiple states at the same time until it is observed. Examples include the “spinning” of an electron. Because of superposition, the electron can both spin in one direction and the opposite direction at once, however if you measure it, the electron will be found spinning in the first direction stated, or with an equal chance spinning in the opposite direction. Superposition is what allows the qubits to have multiple states at the same time. Like the electron, when it is measured the qubit immediately causes its quantum state to fall to 1 or 0." 
+    },
+    "4": {
+        "title": "Interference",
+        "description": "When you drop two stones in a pond, you will notice that the splashes they make create ripples. You can also treat them as waves. You will also notice that they will collide and make a bigger wave, and sometimes rarely cancel out. This is an example of interference in physics, a phenomenon in which two waves combine to form a resultant wave of greater, lower or same amplitude. The two types of interference are constructive and destructive interference. Because of the fact that particles have wavelike properties and superposition states that a particle may be at different locations at the same time, it is possible for a particle to interfere with itself. Like superposition, when measured interference no longer happens. For example measuring the double slit experiment will turn the results to as if interference never happened. Interference is best described through the double slit experiment." 
+    },
+    "5": {
+        "title": "Double slit experiment", 
+        "description": "A beam of light is aimed at a barrier with two vertical slits. The light passes through the slits and the resulting pattern is recorded on a plate. If one slit is covered, the pattern is what would be expected: a single line of light, aligned with whichever slit is open. With reasonable estimation, one would expect that if both slits are open, the pattern of light will reflect the idea of two lines of light, aligned with the slits. However, what happens is that the plate is entirely separated into multiple lines of lightness and darkness in varying degrees. What this result means is that interference is taking place between the waves/particles going through the slits, in which there should be non-crossing trajectories. This means that both of the lines are not responsible for the other’s interference, only themselves."
+    },
+    "6": {
+        "title": "Entanglement",
+        "description": "Quantum entanglement is the phenomenon in which a group of particles are generated in a way where the quantum states are the same, including when the particles are separated by a distance. For example measurements of the particles like position, momentum, spin and polarisation on entangled particles can sometimes be found to be the same.  The best way to understand entanglement is through an experiment. Two entangled particles are generated and then sent off to different locations, far away from each other.  Before the particles are measured they will be in a state of superposition, found spinning up and down at the same time. You measure one particle and break the superposition, letting the particle fall to a state of say, spinning up. Repeat the measurement on the other particle, and find that it is also spinning up. This is entanglement, how particles share properties, even across distances."
+    },
+    "7": {
+        "title": "How powerful are quantum computers?",
+        "description": "As mentioned before, quantum computers use qubits while classical computers use bits. Already a difference is found, because of the fact that qubits can represent multiple states because of superposition, meaning that it can hold a lot more information than a regular bit. Qubits, or superposition, is what gives quantum computing superior computing power to regular computers. As stated before, qubits are exponential. This means the more qubits you have, the information that a qubit system can represent is an exponential growth. This means: Information that 500 qubits can represent would not be possible with 2^500 classical bits.  It would take a classical computer millions of years to find the prime factors for a 2048 bit number. A quantum computer completes this in just minutes. Superposition doesn’t just allow more information to be stored with less units however. Because of superposition, quantum computers can process things faster, this will be explained more later. The power of the computer is great, but it would be even better if it was more efficient in space.  Regular computers use transistors, an electrical object that controls current to represent the binary information in a bit. The rough equivalent to quantum computers is qubits. Roughly speaking, a particle such as an electron or photon can be used and referred to as a qubit. Because of the fact that these exist on a subatomic scale and each qubit holds more information than a regular bit, the space needed for a quantum computer to solve a problem compared to a classical computer is way less."
+    },
+    "8": {
+        "title": "Uses of  quantum computers - weather forecasting",
+        "description": "The reason why the weather forecasting is inaccurate is because of the many environmental factors to account for. A quantum computer however is able to forecast these patterns to a better degree."
+    },
+    "9": {
+        "title": "Mathematics problems",
+        "description": "The computing power of the quantum computers will assist it greatly in solving more complex mathematical problems that classical computers struggle in."
+    },
+    "10": {
+        "title": "Data analysis",
+        "description": "Quantum computers are better suited to handle large data sets."
+    },
+    "11": {
+        "title": "Finance",
+        "description": "Like weather, finance has many factors that influence it."
+    },
+    "12": {
+        "title": "Simulation of quantum systems",
+        "description": "Quantum computers can help in the development of better quantum computers."
+    },
+    "13": {
+        "title": "How does it work?",
+        "description": "The theory of quantum mechanics is what allows quantum computers to work. The three main phenomenons are: superposition, interference and entanglement."
+    },
+    "14": {
+        "title": "Superposition in quantum computing",
+        "description": "As stated before, superposition allows quantum computers to compute and process faster, as well as having more efficiency in taking up space. The use of superposition through qubits is most evident through this table, which explains how quantum computers can store so much power. To put qubits into superposition, you could manipulate it using precision lasers or microwave beams. Decoherence is a phenomenon where the interaction of particles with their environment in some ways will cause the quantum behaviour to decay and therefore lose superposition. There are multiple ways to prevent this. The part that holds the qubit is kept at very low temperatures to enhance coherence and minimise interference. The part that holds the qubit is in a vacuum chamber to reduce vibrations and balances the qubits."
+    },
+    "15": {
+        "title": "Interference in quantum computing",
+        "description": "A question you might have, is how does the AI manipulate the superposition to what it wants? From what we have read, the multiple states of superposition are quite random, so how can we use the qubits to our advantage? Interference is what is used to control the probability of the multiple states that a qubit will collapse into. As stated before, quantum interference has both constructive interference and destructive interference. Constructive interference enhances amplitude while destructive interference cancels out amplitude. A good example that parallels how interference works is a classical analog one. NOise cancellation. Noise cancelling is done by employing superposition (the superposition in regular physics) and the interference (interference in regular physics) to reduce the amplitude of unwanted noise by generating a tone of nearly the same frequency and amplitude, but out of phase by a value of pi. when the phase difference is close to an odd multiple of pi, the superposition of both waves results in interference, making an output that is reduced in noise compared to the original. How quantum interference works in quantum computers is similar. To begin, one prepares a superposition of all possible computation states. This is then used as an input to a quantum circuit that selectively interferes with the component of the superposition according to a prescribed algorithm. What remains after cancelling the relative amplitudes and phases of the input state is a solution to the computation performed by the quantum circuit."
+    },    
+    "16": {
+        "title": "Entanglement in quantum computing",
+        "description": "To refresh your mind on entanglement, entanglement is the relationship between two particles, where they share the same quantum properties. Measuring one particle will instantly affect the properties of the other particle, and observing the second particle will find that the properties are the same.One of the reasons why entanglement is still very unknown is because of the fact that it violates the special theory of relativity. This means that it could be possible to use this as a much much faster form of sending information. This would make it possible to perform many calculations simultaneously across the entire memory of the computer. Another use of entanglement is if an operation is applied to one particle, it affects the other entangled particles too."
+    },
+    "17": {
+        "title": "What role does AI play in quantum computing?",
+        "description": "Artificial Intelligence is at its core mimicking the intelligence or behavioural pattern of humans or any other living entity. The deep learning that AI does and its artificial neural network is also an attempt to mimic the human brain. The human brain is one of the most powerful computational devices. We do not know everything about it, but one of the observations we have is how the brain processes information in a fast way, despite the fact that neurons are supposed to be slow. In more recent years, multiple researchers and scientists have developed a theory that the human brain uses quantum mechanics to explain the high processing speeds and even the emergence of consciousness. A quick summary of quantum computing with superposition, interference and entanglement: Quantum computers differ from classical computers because of the fact that a single quantum system can be represented through superposition, by multiple states. If the state is not observed and doesn’t collapse, it can interfere with itself and therefore interfere with the other states. This interference allows for multiple computations via different paths without the system collapsing in one of these paths. This means that the computer can work on potential realisations of computations. This is different to a regular computer, which needs to go through every individual path."
+    },
+        "18": {
+        "title": "What role does AI play in quantum computing? (continued)",
+        "description": "If the theory that the brain uses quantum computing is true, this could explain why the chatbots that are controlled by AI are still very limited in speech despite the supervised, unsupervised and reinforcement learning it uses.If the AI attempts to mimic a brain using classical computation, it is possible it would also produce a poor imitation. If the theory that the brain uses quantum computing is true, perhaps quantum mechanics would need to be applied to the artificial neural network, in order to truly imitate the brain. Artificial intelligence would become truly powerful, as its computing matches a human if the theory that the brain uses quantum computing is true, and the existing power that allows an AI to defeat a chess grandmaster helps its new quantum mechanic brain. Quantum mechanics can also be added to the types of learning, an example would include applying quantum mechanics to reinforcement learning. This would speed up the brute forcing greatly. While AI doesn’t have a big “role” in quantum computing yet, it is paralleling it and very soon would join together."
+        }
 }

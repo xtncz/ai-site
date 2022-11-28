@@ -1,10 +1,42 @@
 {
     "1": {
         "title": "How effective is the use of AI in E-Commerce?",
-        "description": "E-Commerce accounts for an impressive 35% of Amazon’s overall revenues."
+        "description": "Artificial intelligence plays a major role in providing enhanced customer experiences and innovative solutions in the e-commerce industry. Such solutions/innovations include personalized shopping experiences for users (e.g. product recommendations), virtual assistants/chatbots, voice searching and much more. Artificial intelligence can also collect data from customers to gain insight into shopping trends and customer behaviour to ensure that end-users have enhanced shopping experiences customises to their needs/wants. With the help of AI and data collected from customers and businesses, today's eCommerce businesses make informed decisions by using that data more efficiently to forecast future results and adjust their marketing campaigns accordingly. According to Amazon, an American multinational technology company, e-commerce accounts for an impressive 35% of Amazon’s overall revenues. But how is AI used in e-commerce?"
+    },
+    "2": {
+        "title": "Chatbots and virtual assistants",
+        "description": "Chatbots and virtual assistants play a major role in e-commerce stores, allowing the user to access realtime support without requiring a physical person to be active to assist them. Instead, artificial intelligence plays the role of the physical assistant, using its programmed intelligence to communicate and assist the end user. A chatbot simulates human conversation through auditory or textual methods, while virtual assistants programs but with similarities to an actual assistant: they can answer specific questions, perform specific tasks, and even make recommendations. Both chatbots and virtual assistants contribute towards sales while satisfying the customer’s needs. As a semi-automated system, a chatbot can handle simple problems more quickly and efficiently than a human can. However, if an issue is complicated or requires an urgent response (e.g., fraud), virtual agents are better suited to handle the situation."
     },
     "3": {
-        "title": "How has AI shaped E-Commerce over the years??",
-        "description": "In the last two decades, widespread use of e-commerce platforms such as Amazon and eBay has contributed to substantial growth in online retail. In 2011, e-commerce accounted for 5% of total retail sales, according to the U.S. Census Bureau."
+        "title": "Intelligent product recommendations",
+        "description": "Instead of requiring customers to manually search for products they want or need, e-commerce stores use artificial intelligence to identify the shopping habits of specific customers or the majority of customers on average to generate product recommendations - the AI uses its data collected from customers to determine what products users tend to purchase. Product recommendations can shorten/reduce the effort the end-user has to put in to find a specific product, and also contribute to revenue as users have a higher chance of finding what they need, or may not be searching for items listed in product recommendations but become interested once they see the items on their screen, directly accessible."
+    },
+    "4": {
+        "title": "AI personalization in e-commerce",
+        "description": "Companies can utilize the collected and processed data to recommend personalized products to every customer in real time and thus design an individual, user-oriented shopping experience. For instance, say a transportation service has an app offering public transportation directions. Algorithms could determine, based on travel speed, if a user is walking, biking, or driving, then recalculate the journey with the appropriate timing. Understanding each customer's need is the very essence of personalization. Satisfying that need takes a blend of the right technology and the knowledge of how to use it.Whether it’s a new visitor or a familiar customer, you can assemble clues from how they entered your site to determine why they came to you. If you identify that intent immediately, you can shorten their customer journey and enhance their experience. Did they come from an advertisement on social media? Did they look for a particular product or service on a search engine? Did they find you from a press article? If you’re lucky enough to have a known visitor that perhaps purchased something or filled out a form, you can display items or content that is related to them."
+    },
+    "5": {
+        "title": "Inventory Management",
+        "description": "AI inventory management systems are not autonomous - personnel supervision is still required. However, artificial intelligence can significantly reduce the time and effort needed for inventory system maintenance. Some of the chief advantages of AI-enhanced inventories are shown in the next slides."
+    },
+    "6": {
+        "title": "Reduced stock discrepancies",
+        "description": "Understocking or overstocking is no longer an issue. AI can correlate inventory data and consumer demand effectively. Smart software systems can order items and provide shipment details promptly."
+    },
+    "7": {
+        "title": "Stock control",
+        "description": "It is another way how AI ML for inventory management helps make the process more efficient. AI-based smart shelves can notify staff about out-of-stock items and request ordering them."
+    },
+    "8": {
+        "title": "Demand prediction",
+        "description": "AI can analyze external data like seasonal trends, preferences of customers, and availability of stocks. The analyzed data can be used to forecast demand, optimize stock inventory, and schedule orders."
+    },
+    "9": {
+        "title": "Fulfillment procedures",
+        "description": "The system can store profiles of the clients that the company has already worked with. It creates opportunities for faster shipping, reordering, and responding to the customers’ needs."
+    },
+    "10": {
+        "title": "How has AI shaped E-Commerce over the years?",
+        "description": "Over the years, Artificial Intelligence (AI) has helped transform the business models of many brands and enterprises. Integrating AI technology in the eCommerce industry has helped many companies to increase their market standards. Amazon has long recognized the benefits of artificial intelligence and related technologies. The behemoth ecommerce company uses machine learning to improve product selection and user experience and to optimize logistics. A recent publication from McKinsey & Company and the Retail Industry Leaders Association named seven imperatives for rethinking retail in 2021, and every single one could in some way be supported by some type of AI-informed technology. Through the stated applications of AI in e-commerce, AI has greatly reformed the way we shop, paving the way for online stores, greatly increasing revenue and accessing more customers."
     }
 }

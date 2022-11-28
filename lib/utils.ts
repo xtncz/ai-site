@@ -8,6 +8,25 @@ export function assetPath(path: string): string {
 }
 
 /**
+ * Checks if an element is scrolled into view.
+ * @param {HTMLElement} el The element to observe
+ * @param {boolean} fullyInView Determines if the element must be fully in view
+ * @returns 
+ */
+export function elementInView(el: HTMLElement, fullyInView = false): boolean {
+    const pageTop = window.pageYOffset;
+    const pageBottom = pageTop + window.innerHeight;
+    const elementTop = el.offsetTop;
+    const elementBottom = elementTop + el.offsetHeight;
+
+    if (fullyInView) {
+        return pageTop < elementTop && pageBottom > elementBottom;
+    } else {
+        return elementTop <= pageBottom && elementBottom >= pageTop;
+    }
+}
+
+/**
  * Matches the file type of a file when given the file name.
  * @param {string} filename The file name
  * @returns
@@ -15,7 +34,7 @@ export function assetPath(path: string): string {
 export function fileType(filename: string): string {
     const match: RegExpMatchArray | null = filename.match(/(\.[a-z]{3,})$/g);
     if (!match) throw new Error("Invalid file name provided");
-    return match[0].slice(1, match[0].length - 1);
+    return match[0].slice(1, match[0].length);
 }
 
 /**

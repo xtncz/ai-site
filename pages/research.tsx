@@ -3,10 +3,10 @@ import type { NextPage } from "next";
 import { Page } from "../components/Page";
 import { Slide } from "../components/Slide";
 
-import { assetPath } from "../lib/utils";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 import ecommerceData from "../lib/data/ecommerce.json";
+import quantumData from "../lib/data/quantum.json";
 import styles from "../styles/Research.module.css";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
 
@@ -86,20 +86,26 @@ const Research: NextPage = (): JSX.Element => {
                         <div className={styles.circle}></div>
                     </div>
                     <p data-aos="fade-up" data-aos-duration="3000">
-                        wdefrtgb
+                        Quantum computing is the type of computation whose operations can use the phenomena of quantum mechanics. So to understand that, we have to understand quantum mechanics first.
                     </p>
                 </div>
                 <div className={styles["slide-container"]} id="quantum-slide-container">
-                    <Slide
-                        title={"Idk"}
-                        description={"ewrfgthytujyhtynhgtrerger"}
-                    />
+                    {Object.values(quantumData).map(
+                        (
+                            slide: {
+                                title: string;
+                                description: string;
+                            },
+                            i: number
+                        ): JSX.Element => (
+                            <Slide
+                                title={slide.title}
+                                description={slide.description}
+                                key={i}
+                            />
+                        )
+                    )}
                 </div>
-                <div
-                    className={styles.image}
-                    style={{
-                        backgroundImage: `url(${assetPath("/assets/ai.png")})`
-                    }}></div>
             </div>
 
             <div className={styles.footer}>
@@ -114,13 +120,13 @@ const Research: NextPage = (): JSX.Element => {
                             onClick={(): void => setQuantumIndex(quantumIndex - 1)}
                         />
                         <div>
-                            <span className={styles.number}>0{quantumIndex + 1}</span>
+                            <span className={styles.number}>{(quantumIndex + 1).toString().padStart(2, "0")}</span>
                             <div className={styles.track}>
                                 <div
                                     className={styles.bar}
                                     id="quantum-track-bar"></div>
                             </div>
-                            <span className={styles.number}>0{quantumTotal}</span>
+                            <span className={styles.number}>{quantumTotal.toString().padStart(2, "0")}</span>
                         </div>
                         <Icon
                             icon={faChevronRight}
@@ -179,11 +185,6 @@ const Research: NextPage = (): JSX.Element => {
                         )
                     )}
                 </div>
-                <div
-                    className={styles.image}
-                    style={{
-                        backgroundImage: `url(${assetPath("/assets/ai.png")})`
-                    }}></div>
             </div>
 
             <div className={styles.footer}>
@@ -198,13 +199,13 @@ const Research: NextPage = (): JSX.Element => {
                             onClick={(): void => setEcommerceIndex(ecommerceIndex - 1)}
                         />
                         <div>
-                            <span className={styles.number}>0{ecommerceIndex + 1}</span>
+                            <span className={styles.number}>{(ecommerceIndex + 1).toString().padStart(2, "0")}</span>
                             <div className={styles.track}>
                                 <div
                                     className={styles.bar}
                                     id="ecommerce-track-bar"></div>
                             </div>
-                            <span className={styles.number}>0{ecommerceTotal}</span>
+                            <span className={styles.number}>{ecommerceTotal.toString().padStart(2, "0")}</span>
                         </div>
                         <Icon
                             icon={faChevronRight}
