@@ -13,14 +13,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/r1zyn/ai-site"
+        "url": "https://github.com/xtncz/ai-site"
     },
     "bugs": {
-        "url": "https://github.com/r1zyn/ai-site/issues"
+        "url": "https://github.com/xtncz/ai-site/issues"
     },
     "author": {
-        "name": "r1zyn",
-        "url": "https://github.com/r1zyn"
+        "name": "xtncz",
+        "url": "https://github.com/xtncz"
     },
     "keywords": [
         "ai",
